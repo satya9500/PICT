@@ -17,7 +17,7 @@
     <nav>
         <ul>
             <li>Present</li>
-            <li>2050</li>
+            <li><a href="https://master.d3mngls51pwzno.amplifyapp.com/" style="text-decoration: none;color: white;">FOOD RECIPES</a></li>
             <li>Past</li>
             <li>Future</li>
             <li>Custom</li>
@@ -25,17 +25,17 @@
     </nav>
     <span style="font-family:Lexend Tera;text-align: center;" class="well"></span>
     <div>
-    <img src="arc3.png" class="rotate image3">
-    <img src="arc.png" class="rotate image">
-    <img src="arc2.png" class="rotate2 image2">
-    <img src="house.png" class="image2 house">
-    <img src="alien.png" class="image3 alien">
-    <img src="hand.png" class="image hand" height="400px" width="30px">
+    <img src="images/arc3.png" class="rotate image3">
+    <img src="images/arc.png" class="rotate image">
+    <img src="images/arc2.png" class="rotate2 image2">
+    <img src="images/house.png" class="image2 house" style="display: none;">
+    <img src="images/alien.png" class="image3 alien" style="display: none;">
+    <img src="images/hand.png" class="image hand" style="display: none;">
    
-    
 
     </div>
-
+    <script src="js/particles.js"></script>
+    <script src="js/app.js"></script>
 </body>
 <script>
     var typed = new Typed('.well', {
@@ -50,6 +50,9 @@
                 $('.image2').addClass('shift2');
                 $('.image').addClass('shift');
                 $('.image3').addClass('shift3');
+                $('.house').css("display","block");
+                $('.alien').css("display", "block");
+                $('.hand').css("display", "block");
             });
         }
         
