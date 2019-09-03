@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Lexend Tera' rel='stylesheet'>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.3/particles.min.js"></script>
+    <title>Document</title>
+</head>
+<body id="particles-js">
+    <nav>
+        <ul>
+            <li>Present</li>
+            <li>2050</li>
+            <li>Past</li>
+            <li>Future</li>
+            <li>Custom</li>
+        </ul>
+    </nav>
+    <span style="font-family:Lexend Tera;text-align: center;" class="well"></span>
+    <div>
+    <img src="arc3.png" class="rotate image3">
+    <img src="arc.png" class="rotate image">
+    <img src="arc2.png" class="rotate2 image2">
+    <img src="house.png" class="image2 house">
+    <img src="alien.png" class="image3 alien">
+    <img src="hand.png" class="image hand" height="400px" width="30px">
+   
+    
+
+    </div>
+
+</body>
+<script>
+    var typed = new Typed('.well', {
+            strings: ["Welcome To Year 2050"],
+            typeSpeed: 80
+        });
+</script>
+<script>
+    $(document).ready(
+        function() {
+            $('.image2').hover(function(){
+                $('.image2').addClass('shift2');
+                $('.image').addClass('shift');
+                $('.image3').addClass('shift3');
+            });
+        }
+        
+    );
+</script>
+</html>
