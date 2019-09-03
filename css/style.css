@@ -1,0 +1,144 @@
+body{
+    margin: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+nav{
+    padding: 1em;
+    margin-top: 0px;
+    width: 100%;
+    position: fixed;
+    background-color: rgb(100, 228, 164);
+    z-index: 0;
+    opacity: 0.8;
+}
+
+.para{}
+
+nav:hover{
+    opacity: 1;
+}
+
+nav>ul{
+    list-style: none;
+    display:inline-flex;
+    float: right;
+    margin-right: 5em;
+}
+
+nav>ul>li{
+    padding-left: 5em;
+    margin-right: 3em;
+}
+
+button{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    border: none;
+    height: 2em;
+    width: 7em;
+    border-radius: 2em;
+    background-color: rgb(109, 245, 177);
+    cursor: pointer;
+}
+
+button:hover{
+    transition: all 0.3s;
+    background-color: rgb(109, 187, 255);
+    color: white;
+}
+
+.left-section{
+    width: 15em;
+    padding: 3em 0em 0em 0em;
+    display: block;
+    float: left;
+    margin-top: 5.5em; 
+    height: 100%;
+    position: fixed;
+    background-color: rgb(120, 219, 219);
+}
+
+.left-section>ul{
+    list-style: none;
+    margin-top: 5em;
+}
+
+.left-section>ul>li{
+    padding: 1em;
+}
+
+.right-section{
+    width: 20em;
+    padding: 3em 0em 0em 0em;
+    height: 100%;
+    position: fixed;
+    margin-left: 78em;
+    margin-top: 5.5em;
+    background-color: rgb(231, 124, 226);
+}
+
+.right-section>ul{
+    list-style: none;
+    margin-right: 5em;
+    
+}
+
+.right-section>ul>li{
+    padding: 1em;
+}
+
+.main{
+  /*  background-image: url("wave.svg");  */
+    background-color: bisque;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    padding-top: 5em; 
+    text-align: center;
+    transition: all 0.5s;
+}
+
+.image{
+    height: 30em;
+    width: 50em;
+    border-radius: 2em;
+}
+
+.main_part1{
+    margin-top:2em;
+}
+
+.green{
+    height: 0.7em;
+    width: 0.7em;
+}
+
+footer{
+    background-color: rgb(20, 15, 15);
+    color: white;
+    padding: 2em;
+}
+
+form>input{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 17em;
+    border-radius: 0.4em;
+    height: 2em;
+    border: 0em;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(26, 19, 19);
+    text-decoration: underline;
+}
+
+.post_text{
+    height: 8em;
+    background-color: rgb(195, 235, 245);
+    border-radius: 0.7em;
+    border: 0em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 50%;
+}

@@ -1,5 +1,5 @@
 body{
-background-image: url("images/bg.jpg");
+
     background-size: cover;
     font-family: 'Lexend Tera';
    background-repeat: no-repeat;
@@ -9,37 +9,31 @@ background-image: url("images/bg.jpg");
     display: block;
   margin-left: 25%;
   margin-right: 25%;
-  transition: all 0.5s;
-}
-
-.wid{
   width: 50%;
+  transition: all 0.5s;
 }
 
 .image3{
     display: block;
   margin-left: 25%;
   margin-right: 25%;
+  width: 50%;
   transition: all 0.5s;
 }
 .hand{
   display: hidden;
-  width: 5%;
 }
-
 .house{
-  width: 5%;
   display: hidden;
 }
-
 .alien{
-  width: 5%;
   display: hidden;
 }
 
 .rotate {
   animation: rotation 5s infinite linear;
-  position: absolute; 
+  position: absolute;
+  
 }
 
 @keyframes rotation {
@@ -55,6 +49,7 @@ background-image: url("images/bg.jpg");
     display: block;
   margin-left: 25%;
   margin-right: 25%;;
+  width: 50%;
   transition: all 0.5s;
 }
 
@@ -168,3 +163,28 @@ span {
 	100% { background-position: 100% 50%; }
 }
 
+.data{
+  position: absolute;
+  width: 8%;
+}
+.wifi{
+  margin-left: 0px;
+}
+.mobile{
+  margin-left: 8%;
+}
+.campfire{
+  margin-left: 16%;
+}
+.science{
+  margin-left: 24%;
+}
+.rocket{
+  margin-left: 32%;
+}
+.green{
+  margin-left: 40%;
+}
+.container1{
+  margin-left: 25%;
+}

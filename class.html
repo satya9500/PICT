@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Sample Webpage</title>
+    <link href="./css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="container">
+        <nav>
+          <a href="https://www.google.com"><img src="./css/html.png" height="50em" width="50em" alt="image"/></a>
+            <ul>
+                <li><a href="https://www.google.com"><button>Home</button></a></li>
+                <li><button>Team</button></li>
+                <li><button onclick="refer();">Login/SignUp</button></li>
+                <li><button>Contact</button></li>
+                <li><button>About Us</button></li>
+            </ul>
+
+        </nav>
+        
+        <div class="left-section">
+            <ul>
+                <li>Content 1</li>
+                <li>Content 2</li>
+                <li>Content 3</li>
+                <li><a href="#">Link 1</a></li>
+                <li><a href="#">Link 1</a></li>
+                <li><a href="#">Link 3</a></li>
+            </ul>
+        </div>
+        <div class="right-section">
+            <ul>
+                <li><img src="green.png" class="green" id="01">&nbsp;&nbsp;&nbsp;Friend 1</li>
+                <li><img src="grey.png" class="green" id="02">&nbsp;&nbsp;&nbsp;Friend 2</li>
+                <li><img src="green.png" class="green" id="03">&nbsp;&nbsp;&nbsp;Friend 3</li>
+            </ul>
+        </div>
+        <div class="main">
+            <div class="main_part1">
+                <div class="post">
+                    <form>
+                        <textarea placeholder="Post Your text...." class="post_text"></textarea><br><br>
+                        <input type="text" placeholder="Enter ">
+                        <button>UPLOAD Img</button>
+                        <button>POST</button><br><br>
+                    </form>
+                </div>
+                <div class="img_div">
+                    <img src="1.jpg" class="image" alt="image 1"><br>
+                    <button>Like</button>
+                    <button>Comment</button>
+                    <button>Share</button><br><br>
+                </div>
+                <div class="img_div">
+                    <img src="2.jpg" class="image nextclass" alt="image 2"><br>
+                    <button>Like</button>
+                    <button>Comment</button>
+                    <button>Share</button><br><br>
+                </div>
+                <div class="img_div">
+                    <img src="3.jpg" class="image" alt="image 3"><br>
+                    <button>Like</button>
+                    <button>Comment</button>
+                    <button>Share</button><br><br>
+                </div>
+                <div class="img_div">
+                    <img src="4.jpg" class="image" alt="image 4"><br>
+                    <button>Like</button>
+                    <button>Comment</button>
+                    <button>Share</button><br><br>
+                </div>
+
+            </div>
+            <footer>
+                <div class="footer_info">
+                    <p>Location: AIT, Pune<br>
+                        Phone number: +919598xxxxxx<br>
+                        Email: satya@gmail.com<br>
+                    </p>
+                </div>
+                <div class="footer form" style="display:inline-flex;">
+                    <form>
+                        <label>Email</label>
+                        <input type="text" placeholder="Enter Your Email" /><br><br>
+                        <label>Query</label>
+                        <input type="text" placeholder="Enter Your Query" /><br><br>
+                        <button>Submit</button>
+                    </form>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <p class="satya">this is a line</p>
+    <script>
+        function refer() {
+        window.location.href = "./login-signup/index.html";
+        }
+    </script>
+</body>
+</html>
